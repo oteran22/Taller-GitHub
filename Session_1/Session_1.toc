@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Introducción}{3}{1}{1}
+\beamer@sectionintoc {2}{Git y GitHub}{6}{1}{2}
+\beamer@sectionintoc {3}{Usando GitHub}{13}{1}{3}
