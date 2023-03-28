@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  28 MAR 2023 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  28 MAR 2023 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1430,54 +1430,58 @@ Package pdftex.def Info: eciem.png  used on input line 178.
 [7
 
  <./git.png>]
-<commit.png, id=117, 602.25pt x 611.28375pt>
+<commit.png, id=117, 528.97626pt x 610.28pt>
 File: commit.png Graphic file (type png)
 <use commit.png>
-Package pdftex.def Info: commit.png  used on input line 195.
-(pdftex.def)             Requested size: 138.51457pt x 140.5923pt.
+Package pdftex.def Info: commit.png  used on input line 196.
+(pdftex.def)             Requested size: 121.66197pt x 140.36143pt.
 
-Overfull \hbox (4.83847pt too wide) in paragraph at lines 195--195
+Overfull \hbox (21.40236pt too wide) in paragraph at lines 196--196
 [][]  
  []
 
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 195.
+Package pdftex.def Info: eciem.png  used on input line 196.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
+
+Overfull \vbox (3.48106pt too high) detected at line 196
+ []
+
 [8
 
  <./commit.png>]
 <commit_rama.png, id=124, 602.25pt x 921.4425pt>
 File: commit_rama.png Graphic file (type png)
 <use commit_rama.png>
-Package pdftex.def Info: commit_rama.png  used on input line 212.
+Package pdftex.def Info: commit_rama.png  used on input line 213.
 (pdftex.def)             Requested size: 132.4954pt x 202.71797pt.
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 212.
+Package pdftex.def Info: eciem.png  used on input line 213.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
  [9
 
  <./commit_rama.png>]
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 231.
+Package pdftex.def Info: github.png  used on input line 232.
 (pdftex.def)             Requested size: 70.44427pt x 16.87953pt.
 
-Overfull \hbox (3.60623pt too wide) in paragraph at lines 231--231
+Overfull \hbox (3.60623pt too wide) in paragraph at lines 232--232
 [][]  
  []
 
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 231.
+Package pdftex.def Info: eciem.png  used on input line 232.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
 [10
 
 ]
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 235.
+Package pdftex.def Info: eciem.png  used on input line 252.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
  [11
 
@@ -1485,39 +1489,39 @@ Package pdftex.def Info: eciem.png  used on input line 235.
 <desktop.png, id=141, 602.25pt x 200.75pt>
 File: desktop.png Graphic file (type png)
 <use desktop.png>
-Package pdftex.def Info: desktop.png  used on input line 248.
+Package pdftex.def Info: desktop.png  used on input line 265.
 (pdftex.def)             Requested size: 126.47623pt x 42.15874pt.
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 248.
+Package pdftex.def Info: eciem.png  used on input line 265.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
  [12
 
  <./desktop.png (PNG copy)>]
 File: eciem_1.png Graphic file (type png)
 <use eciem_1.png>
-Package pdftex.def Info: eciem_1.png  used on input line 250.
+Package pdftex.def Info: eciem_1.png  used on input line 267.
 (pdftex.def)             Requested size: 129.24815pt x 33.24377pt.
  [13
 
 ]
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 257.
+Package pdftex.def Info: eciem.png  used on input line 274.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
  [14
 
 ]
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 270.
+Package pdftex.def Info: eciem.png  used on input line 288.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
  [15
 
 ]
 File: eciem.png Graphic file (type png)
 <use eciem.png>
-Package pdftex.def Info: eciem.png  used on input line 281.
+Package pdftex.def Info: eciem.png  used on input line 299.
 (pdftex.def)             Requested size: 46.73734pt x 12.0216pt.
  [16
 
@@ -1553,7 +1557,7 @@ texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist
 e1/public/lm/lmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
 lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10
 .pfb>
-Output written on Session_1.pdf (16 pages, 409257 bytes).
+Output written on Session_1.pdf (16 pages, 412279 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams

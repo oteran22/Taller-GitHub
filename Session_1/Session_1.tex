@@ -163,7 +163,7 @@
 \column{.8\textwidth}
  \begin{itemize}
  \justifying
-    \item Git es un software de control de versiones distribuido, para optimizar el trabajo en proyectos que cuenten con un gran número de archivos.
+    \item Git es un software de control de versiones distribuido,  optimiza el trabajo en proyectos.
  \end{itemize}
 
 \column{.2\textwidth}
@@ -171,20 +171,21 @@
 \end{columns}
 \begin{itemize}
 \justifying
-\item Un software de control de versiones permite registrar los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que es posible recuperar versiones específicas de los mismos.
-\item En Git, los proyectos se almacenan en repositorios, por tanto, un repositorio contiene los  los archivos del proyecto junto a todo el historial de cambios que Git gestiona. 
-\item Git almacena instantáneas del proyecto cada vez que se realiza y confirma algún cambio
+\item Un software de control de versiones: registra cambios realizados en un archivo o conjunto de archivos en tiempo, entonces se puede recuperar versiones específicas.
+\item Los proyectos se almacenan en repositorios que contiene los archivos del proyecto junto a todo el historial de cambios. 
+\item Es distribuido, por lo que cada desarrollador tiene una clon local del repositorio principal 
 \end{itemize}
 \end{frame}
 
 
 \begin{frame}{¿Qué es Git?\hfill \includegraphics[scale=.1]{eciem.png}}
 \begin{columns}
-\column{0.4\textwidth}
+\column{0.3\textwidth}
 \includegraphics[scale=.23]{commit.png} 
-\column{0.6\textwidth}
+\column{0.7\textwidth}
 \begin{itemize}
 \justifying
+ \item Git almacena cada vez que se realiza y confirma (commit) algún cambio
  \item Cada uno de los nodos representa un cambio confirmado (commit).
  \item A una sucesión de commits se le conoce como rama (branch)
  \item La rama principal del proyecto es la rama master
@@ -205,7 +206,7 @@
  \item Cada uno de colaboradores puede tener una rama propia y modificar el proyecto.
  \item Cada una de las ramas tendrá su propia historia.
  \item Los cambios en las ramas son independientes de la master.
- \item La master es la rama estable, por tanto el master es siempre estable.
+ %\item La master es la rama estable, por tanto el master es siempre estable.
  \item Para incorporar los cambios al master se debe solicitar un merge
 \end{itemize}
 \end{columns}
@@ -231,7 +232,23 @@
 \end{frame}
 
 \begin{frame}{¿Para qué me sirve GitHub?\hfill \includegraphics[scale=.1]{eciem.png}}
-
+\begin{itemize}
+\item Es eficiente para
+\begin{itemize}
+\justifying
+\item Alojar base de datos de papers y los códigos de ejecución
+\item Utilizar un sistema de control de cambio en archivos de binarios (\LaTeX, html, Markdown,R, phyton,...) 
+\item Trabajar en simultaneo con otros investigadores en distintas partes de un código
+\item Desarrollar software colaborativamente (Paquetes en R, librerías de phyton,dahboard,...)
+\end{itemize}
+\item Se puede, pero no es lo ideal
+\begin{itemize}
+\justifying
+\item Alojar archivos para difusión.
+\item Usar como control de versión de archivos no binarios.
+\item Usar como backup de archivos.
+\end{itemize}
+\end{itemize}
 \end{frame}
 
 \begin{frame}{¿Qué es GitHub Desktop? \hfill \includegraphics[scale=.1]{eciem.png}}
@@ -261,11 +278,12 @@
 Existen un conjunto de acciones básicas que se deben conocer al trabajar con repositorios:
 \begin{itemize}
 \justifying
-\item \textbf{pull}:
-\item \textbf{commit}:
-\item \textbf{push}:
-\item \textbf{clone}:
-\item \textbf{fork}:
+\item \textbf{pull}: Obtiene los archivos del repositorio remoto y los combina con el local.
+\item \textbf{commit}:Crea una entrada en el indice de historiales, establece la versión.
+\item \textbf{push}:Envía todos los objetos modificados localmente al repositorio remoto
+\item \textbf{clone}: Crea una copia de repositorio GIT de una fuente externa
+\item \textbf{fork}:Crea una bifurcación o rama nueva.
+\item \textbf{merge}:Fusiona una o más ramas con otra rama activa y crea automáticamente un nuevo commit si no hay conflictos
 \end{itemize}
 \end{frame}
 
@@ -274,9 +292,9 @@ Existen un conjunto de acciones básicas que se deben conocer al trabajar con re
 \item Crear un repositorio usando web browser
 \item Crear desde GitHub Desktop
 \item Clonar el repositorio
-\item Modificar un archivo y hacer un Commit
-\item Hacer un Push
-\item Modificar un archivo en linea y hacer un pull
+\item Modificar un archivo en su repositorio y hacer un commit
+\item Hacer un push
+\item Modificar el README.md de un repositorio y hacer un pull
 \end{itemize}
 \end{frame}
 
